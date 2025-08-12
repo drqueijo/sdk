@@ -1,0 +1,17 @@
+{
+  "name": "bitfever-app-react",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@bitfever/sdk-react": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "vite": "^7.0.0",
+    "typescript": "~5.8.3"
+  }
+}

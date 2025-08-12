@@ -1,0 +1,3 @@
+import {useMemo}from'react';import {jsx}from'react/jsx-runtime';var m=({clientId:o,config:t,...e})=>{let n=`https://app.bitfever.com/sdk?clientId=${o}`,p=useMemo(()=>({style:{border:"none",maxWidth:"343px",maxHeight:"650px",minWidth:"343px",minHeight:"650px"},title:"Bitfever",scrolling:"no",id:"bitfever-iframe",...t}),[t]),s=useMemo(()=>({position:"relative",boxShadow:"0 25px 50px -12px rgba(0, 0, 0, 0.25)",display:"flex",alignItems:"center",justifyContent:"center",maxHeight:"650px",maxWidth:"343px",borderRadius:"0.75rem",minHeight:"650px",minWidth:"343px",overflow:"hidden",...e.style}),[e.style]);return jsx("div",{...e,style:s,children:jsx("iframe",{...p,src:n})})},x=m;
+export{x as BitFever};//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.js.map

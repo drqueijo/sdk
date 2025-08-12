@@ -1,0 +1,10 @@
+{
+  "extends": "../../packages/vue/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@bitfever/sdk-vue": ["../../packages/vue/src"]
+    }
+  },
+  "include": ["src"]
+}

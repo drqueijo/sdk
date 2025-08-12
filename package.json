@@ -1,0 +1,45 @@
+{
+  "name": "bitfever-sdk",
+  "version": "1.0.6",
+  "type": "module",
+  "packageManager": "pnpm@8.15.0",
+  "description": "BitFever SDK - React and Vue components for integrating BitFever functionality.",
+  "keywords": [
+    "bitfever",
+    "sdk",
+    "react",
+    "vue",
+    "component",
+    "iframe"
+  ],
+  "homepage": "https://bitfever.com",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfever/bitfever.git"
+  },
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:react": "pnpm --filter bitfever-app-react --dir app/react dev",
+    "dev:vue": "pnpm --filter bitfever-app-vue --dir app/vue dev",
+    "build": "turbo build",
+    "clean": "turbo clean",
+    "typecheck": "turbo typecheck",
+    "lint": "turbo lint",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "clean-package": "^2.2.0",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0",
+    "rimraf": "^5.0.5",
+    "turbo": "^2.5.4",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.34.1"
+  }
+}

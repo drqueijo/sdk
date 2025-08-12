@@ -1,0 +1,16 @@
+{
+  "name": "bitfever-app-vue",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "vue": "^3.0.0",
+    "@bitfever/sdk-vue": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^7.0.0",
+    "typescript": "~5.8.3"
+  }
+}
